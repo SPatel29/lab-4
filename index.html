@@ -15,98 +15,92 @@
       <fieldset>
         <legend><b>My Info</b></legend>
         <div class="first-name">
-          <label for="first_name_field">First name:</label>
+          <label for="first">First name:</label>
           <input
             type="text"
+            id="first"
             name="first_name_field"
             placeholder="Type first name"
           />
         </div>
         <div class="last-name">
-          <label for="last_name_field">Last name:</label>
+          <label for="last">Last name:</label>
           <input
             type="text"
+            id="last"
             name="last_name_field"
             placeholder="Type last name"
           />
         </div>
         <div class="phone-num">
-          <label for="phone_field">Phone Number:</label>
+          <label for="phone">Phone Number:</label>
           <input
             type="text"
+            id="phone"
             name="phone_field"
             placeholder="Enter Phone Number"
           />
         </div>
         <div class="email">
-          <label for="email_field">Email Address:</label>
+          <label for="email">Email Address:</label>
           <input
             type="email"
+            id="email"
             name="email_field"
             placeholder="Enter Email Address"
           />
         </div>
         <div class="gender">
-          <label for="gender_field">Gender:</label>
-          <label for="gender_field">Male:</label>
-          <input type="radio" name="gender_field" value="Male" />
-          <label for="gender_field">Female:</label>
-          <input type="radio" name="gender_field" value="Female" />
+          <label>Gender:</label>
+          <label for="male">Male:</label>
+          <input type="radio" id="male" name="gender_field" value="Male" />
+          <label for="female">Female:</label>
+          <input type="radio" id="female" name="gender_field" value="Female" />
         </div>
         <div class="age">
-          <label for="age_field">Age:</label>
+          <label>Age:</label>
           <select name="age_field">
             <option value="<18 (less than 18)">Under 18</option>
-            <option value="18 - 24">
-              18 - 24
-            </option>
-            <option value="25 - 34">
-              25 - 34
-            </option>
-            <option value="35 - 44">
-              35 - 44
-            </option>
-            <option value="45 - 54">
-              45 - 54
-            </option>
+            <option value="18 - 24">18 - 24</option>
+            <option value="25 - 34">25 - 34</option>
+            <option value="35 - 44">35 - 44</option>
+            <option value="45 - 54">45 - 54</option>
             <option value="55 - 64">55 - 64</option>
-            <option value="65+">
-              65 and over
-            </option>
+            <option value="65+">65 and over</option>
           </select>
         </div>
       </fieldset>
 
       <fieldset>
         <legend><b>My Availability</b></legend>
-        <label for="available_field[]">Days Available</label>
+        <label>Days Available</label>
         <div class="sunday-availability">
-          <input type="checkbox" name="available_field[]" value="Sunday" />
-          <label for="available_field[]">Sunday</label>
+          <input type="checkbox" id="sunday_checkbox" name="available_field[]" value="Sunday" />
+          <label for="sunday_checkbox">Sunday</label>
         </div>
         <div class="monday-availability">
-          <input type="checkbox" name="available_field[]" value="Monday" />
-          <label for="available_field[]">Monday</label>
+          <input type="checkbox" id="monday_checkbox" name="available_field[]" value="Monday" />
+          <label for="monday_checkbox">Monday</label>
         </div>
         <div class="tuesday-availability">
-          <input type="checkbox" name="available_field[]" value="Tuesday" />
-          <label for="available_field[]">Tuesday</label>
+          <input type="checkbox" id="tuesday_checkbox" name="available_field[]" value="Tuesday" />
+          <label for="tuesday_checkbox">Tuesday</label>
         </div>
-        <div class="wenesday-">
-          <input type="checkbox" name="available_field[]" value="Wenesday" />
-          <label for="available_field[]">Wenesday</label>
+        <div class="wenesday-availability">
+          <input type="checkbox" id="wenesday_checkbox" name="available_field[]" value="Wenesday" />
+          <label for="wenesday_checkbox">Wenesday</label>
         </div>
-        <div class="thursday-">
-          <input type="checkbox" name="available_field[]" value="Thursday" />
-          <label for="available_field[]">Thursday</label>
+        <div class="thursday-availability">
+          <input type="checkbox" id="thursday_checkbox" name="available_field[]" value="Thursday" />
+          <label for="thursday_checkbox">Thursday</label>
         </div>
-        <div class="friday-">
-          <input type="checkbox" name="available_field[]" value="Friday" />
-          <label for="available_field[]">Friday</label>
+        <div class="friday-availability">
+          <input type="checkbox" id="friday_checkbox" name="available_field[]" value="Friday" />
+          <label for="friday_checkbox">Friday</label>
         </div>
-        <div class="saturday-">
-          <input type="checkbox" name="available_field[]" value="Saturday" />
-          <label for="available_field[]">Saturday</label>
+        <div class="saturday-availability">
+          <input type="checkbox" id="saturday_checkbox" name="available_field[]" value="Saturday" />
+          <label for="saturday_checkbox">Saturday</label>
         </div>
         <p>Any Comments?</p>
         <textarea
